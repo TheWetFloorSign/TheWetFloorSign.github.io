@@ -1,0 +1,16 @@
+[
+	{
+		name: "punch1",
+		ID: 0,
+		animationID: "punch1",
+		damageBox:{
+			width:10,
+			height:10,
+			vector:{x:0,y:0},
+			relative:true,
+			force:{x:0,y:0}
+		},
+		
+	}
+
+]

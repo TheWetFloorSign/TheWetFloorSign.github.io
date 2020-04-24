@@ -1,0 +1,173 @@
+{
+	"tiles": [
+		{
+			"id": 1,
+			"frames": [
+				{
+					"framePosition": [24,24], "frameSize": [24,24]
+				}
+			],
+			"hitbox": [
+				{
+					"boxSize": [24,24], "boxPosition": [0,0]
+				}
+			]
+		},
+		{
+			"id": 2,
+			"frames": [
+				{
+					"framePosition": [24,0], "frameSize": [24,24]
+				}
+			],
+			"hitbox": [
+				{
+					"boxSize": [24,24], "boxPosition": [0,0]
+				}
+			]
+		},
+		{
+			"id": 3,
+			"frames": [
+				{
+					"framePosition": [144,24], "frameSize": [24,24]
+				}
+			],
+			"hitbox": [
+				{
+					"boxSize": [24,24], "boxPosition": [0,0]
+				}
+			]
+		},
+		{
+			"id": 4,
+			"frames": [
+				{
+					"framePosition": [48,24], "frameSize": [24,24]
+				}
+			],
+			"hitbox": [
+				{
+					"boxSize": [24,24], "boxPosition": [0,0]
+				}
+			]
+		},
+		{
+			"id": 5,
+			"frames": [
+				{
+					"framePosition": [48,24], "frameSize": [24,24]
+				}
+			],
+			"hitbox": [
+				{
+					"boxSize": [24,24], "boxPosition": [0,0]
+				}
+			],
+			"slope": [0,24],
+			"slopePosition": "bottom"
+		},
+		{
+			"id": 6,
+			"frames": [
+				{
+					"framePosition": [48,24], "frameSize": [24,24], "flip": true
+				}
+			],
+			"hitbox": [
+				{
+					"boxSize": [24,24], "boxPosition": [0,0]
+				}
+			],
+			"slope": [24,0],
+			"slopePosition": "bottom"
+		},
+		{
+            "id": 9,
+            "frames": [
+                {
+                    "framePosition": [24,48], "frameSize": [24, 24], "flip": -1
+                }
+            ],
+            "hitbox": [
+                {
+                    "boxSize": [24,24], "boxPosition": [0,0]
+                }
+            ],
+			"slope": [12,0],
+			"slopePosition": "bottom"
+        },
+		{
+            "id": 10,
+            "frames": [
+                {
+                    "framePosition": [48,48], "frameSize": [24,24], "flip": -1
+                }
+            ],
+            "hitbox": [
+                {
+                    "boxSize": [24,24], "boxPosition": [0,0]
+                }
+            ],
+			"slope": [24,12],
+			"slopePosition": "bottom"
+        }
+		
+	],
+	"background": [
+		[1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 3],
+		[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3],
+		[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3],
+		[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3],
+		[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3],
+		[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3],
+		[1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 3]
+	],
+					
+	"objects":[
+		{
+			"id":1,
+			"idName":"RubDummy"
+		}, {
+			"id":2,
+			"idName":"Dummy"
+		}, {
+			"id":3,
+			"idName":"Ball"
+		}, {
+			"id":4,
+			"idName":"Door"
+		}, {
+			"id":5,
+			"idName":"Player"
+		}
+	],
+	"objectSpawns":[
+		{
+			"id":4,
+			"location":{"x":1176, "y":96},
+			"data":{"level":"Appartments.json",
+					"position":{"x":24, "y":312}
+					}
+		},
+		{
+			"id":4,
+			"location":{"x":24, "y":96},
+			"data":{"level":"MuseumRoad.json",
+					"position":{"x":1176, "y":406}
+					}
+		},
+		{
+			"id":3,
+			"location":{"x":400, "y":120},
+			"data":{}
+		},
+		{
+			"id":5,
+			"location":{"x":120, "y":72}
+		}
+	],
+	"levels":[
+	"Street1",
+	"Level3"]					
+}
